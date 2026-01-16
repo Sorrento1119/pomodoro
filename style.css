@@ -21,6 +21,55 @@ p {
   margin: 10px auto 20px auto;
 }
 
+.app-settings {
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+
+.app-settings label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.app-settings input {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #d8e9ef;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #d8e9ef;
+}
+
+.app-settings input:focus {
+  outline: none;
+  border-color: #90c0d1;
+}
+
+.app-buttons {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.app-buttons button {
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  outline: none;
+  color: #d8e9ef;
+}
+
+.app-buttons button:hover {
+  color: #90c0d1;
+}
+
 .app-container {
   width: 250px;
   height: 420px;
